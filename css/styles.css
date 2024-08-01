@@ -1,0 +1,133 @@
+* {
+    background-color: #F3F5FC;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    margin: 37px 0px 0px 40px;
+}
+
+.container-conteudo-principal {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alura-logo {
+    margin: 3% 0% 0% 0%;
+}
+
+.input {
+    border: none;
+    color: #0A3871;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    height: 50px;
+    margin: 25% 0% 0% 5%;
+    outline: none;
+    width: 630px;
+}
+
+.input::placeholder {
+    color: #0A3871;
+}
+
+.icone-frase {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    margin: 90% 0% 0% 5%;
+}
+
+.frase {
+    color: #495057;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.botoes {
+    align-items: center;
+    display: flex;
+    margin: 2% 0% 0% 5%;
+}
+
+.button {
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    height: 65px;
+    width: 325px;
+}
+
+.criptografar {
+    background-color: #0A3871;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.descriptografar {
+    background-color: #D8DFE8;
+    color: #0A3871;
+    margin-right: 80px;
+}
+
+.retangulo {
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    justify-content: center;
+    margin: 3% 3% 0% 0%;
+    width: 400px;
+}
+
+.container-menino {
+    background-color: transparent;
+}
+
+.menino {
+    background-color: transparent;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.subtitulo-paragrafo {
+    align-items: center;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.subtitulo {
+    background-color: transparent;
+    color: #343A40;
+    font-family: "Inter", sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.paragrafo {
+    background-color: transparent;
+    color: #343A40;
+    font-family: "Inter", sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+.rodape {
+    background-color: #0A3871;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
